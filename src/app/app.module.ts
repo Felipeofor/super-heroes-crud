@@ -26,6 +26,8 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { HeroesTableComponent } from './components/heroes-table/heroes-table.component';
 import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dialog.component';
 import { CreateHeroDialogComponent } from './components/create-hero-dialog/create-hero-dialog.component';
+import { UppercaseDirective } from './uppercase.directive';
+import { CapitalizeFirstLetterDirective } from './capitalize-first-letter.directive';
 
 
 @NgModule({
@@ -38,7 +40,9 @@ import { CreateHeroDialogComponent } from './components/create-hero-dialog/creat
     DialogErrorComponent,
     HeroesTableComponent,
     ConfirmDialogComponent,
-    CreateHeroDialogComponent
+    CreateHeroDialogComponent,
+    UppercaseDirective,
+    CapitalizeFirstLetterDirective
   ],
   imports: [
     BrowserModule,
