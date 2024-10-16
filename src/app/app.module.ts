@@ -24,6 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { DialogErrorComponent } from './components/dialog-error/dialog-error.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { HeroesTableComponent } from './components/heroes-table/heroes-table.component';
+import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dialog.component';
+import { CreateHeroDialogComponent } from './components/create-hero-dialog/create-hero-dialog.component';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { HeroesTableComponent } from './components/heroes-table/heroes-table.com
     SignUpComponent,
     HomeComponent,
     DialogErrorComponent,
-    HeroesTableComponent
+    HeroesTableComponent,
+    ConfirmDialogComponent,
+    CreateHeroDialogComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,33 @@
+  <h2 mat-dialog-title>{{ data ? 'Editar Héroe' : 'Crear Héroe' }}</h2>
+  <mat-dialog-content>
+    <form [formGroup]="form">
+      <mat-form-field appearance="fill">
+        <mat-label>Nombre</mat-label>
+        <input matInput formControlName="name" />
+        <mat-error *ngIf="form.controls['name']?.invalid">
+          Nombre es requerido
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Origen</mat-label>
+        <input matInput formControlName="origin" />
+        <mat-error *ngIf="form.controls['origin']?.invalid">
+          Origen es requerido
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Poder</mat-label>
+        <input matInput formControlName="powers" />
+        <mat-error *ngIf="form.controls['powers']?.invalid">
+          Poder es requerido
+        </mat-error>
+      </mat-form-field>
+    </form>
+  </mat-dialog-content>
+
+  <mat-dialog-actions align="end">
+    <button mat-button class="button-cancel" (click)="cancel()">Cancelar</button>
+    <button mat-button class="button-save" [disabled]="form.invalid" (click)="save()">Guardar</button>
+  </mat-dialog-actions>

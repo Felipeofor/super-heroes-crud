@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.button-cancel {
+    background-color: grey;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.button-save {
+    background-color: #2a9a26;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    padding: 6px 15px;
+    border: none;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}

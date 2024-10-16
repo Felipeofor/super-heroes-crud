@@ -28,8 +28,8 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
     this.form = this.fb.group({
       tipoDocumento: ['DNI', Validators.required],
-      nroDocumento: ['12000333', Validators.required],
-      clave: ['123456', Validators.required],
+      nroDocumento: ['12345678', Validators.required],
+      clave: ['12345678', Validators.required],
     });
   }
 

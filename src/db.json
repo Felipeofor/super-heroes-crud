@@ -1,34 +1,274 @@
 {
   "superheroes": [
-    { "id": 1, "name": "Spiderman", "powers": ["Spider Sense", "Agility"], "origin": "New York" },
-    { "id": 2, "name": "Superman", "powers": ["Super Strength", "Flight"], "origin": "Krypton" },
-    { "id": 3, "name": "Batman", "powers": ["Intelligence", "Martial Arts"], "origin": "Gotham City" },
-    { "id": 4, "name": "Wonder Woman", "powers": ["Super Strength", "Flight"], "origin": "Themyscira" },
-    { "id": 5, "name": "Iron Man", "powers": ["Advanced Armor", "Genius-level intellect"], "origin": "New York" },
-    { "id": 6, "name": "Hulk", "powers": ["Super Strength", "Regeneration"], "origin": "New Mexico" },
-    { "id": 7, "name": "Thor", "powers": ["God of Thunder", "Immortality"], "origin": "Asgard" },
-    { "id": 8, "name": "Black Panther", "powers": ["Enhanced Senses", "Vibranium Suit"], "origin": "Wakanda" },
-    { "id": 9, "name": "Captain America", "powers": ["Super Strength", "Shield Mastery"], "origin": "Brooklyn" },
-    { "id": 10, "name": "Flash", "powers": ["Super Speed", "Time Travel"], "origin": "Central City" },
-    { "id": 11, "name": "Aquaman", "powers": ["Water Control", "Super Strength"], "origin": "Atlantis" },
-    { "id": 12, "name": "Green Lantern", "powers": ["Power Ring", "Energy Constructs"], "origin": "Coast City" },
-    { "id": 13, "name": "Doctor Strange", "powers": ["Magic", "Dimensional Travel"], "origin": "New York" },
-    { "id": 14, "name": "Wolverine", "powers": ["Regeneration", "Adamantium Claws"], "origin": "Canada" },
-    { "id": 15, "name": "Deadpool", "powers": ["Regeneration", "Martial Arts"], "origin": "Canada" },
-    { "id": 16, "name": "Daredevil", "powers": ["Enhanced Senses", "Martial Arts"], "origin": "Hell's Kitchen" },
-    { "id": 17, "name": "Ant-Man", "powers": ["Size Manipulation", "Strength Proportional to Size"], "origin": "San Francisco" },
-    { "id": 18, "name": "Captain Marvel", "powers": ["Super Strength", "Energy Manipulation"], "origin": "Earth" },
-    { "id": 19, "name": "Scarlet Witch", "powers": ["Reality Warping", "Magic"], "origin": "Sokovia" },
-    { "id": 20, "name": "Vision", "powers": ["Phasing", "Super Intelligence"], "origin": "Artificial" },
-    { "id": 21, "name": "Black Widow", "powers": ["Espionage", "Martial Arts"], "origin": "Russia" },
-    { "id": 22, "name": "Hawkeye", "powers": ["Archery", "Tactical Awareness"], "origin": "Iowa" },
-    { "id": 23, "name": "Falcon", "powers": ["Flight Suit", "Combat Skills"], "origin": "Harlem" },
-    { "id": 24, "name": "Shazam", "powers": ["Magic", "Super Strength"], "origin": "Philadelphia" },
-    { "id": 25, "name": "Green Arrow", "powers": ["Archery", "Hand-to-Hand Combat"], "origin": "Star City" },
-    { "id": 26, "name": "Cyborg", "powers": ["Cybernetic Enhancements", "Technopathy"], "origin": "Detroit" },
-    { "id": 27, "name": "Star-Lord", "powers": ["Expert Pilot", "Tactical Genius"], "origin": "Earth" },
-    { "id": 28, "name": "Groot", "powers": ["Regeneration", "Size Manipulation"], "origin": "Planet X" },
-    { "id": 29, "name": "Rocket Raccoon", "powers": ["Genius Engineer", "Combat Skills"], "origin": "Halfworld" },
-    { "id": 30, "name": "Gambit", "powers": ["Kinetic Energy Manipulation", "Card Mastery"], "origin": "New Orleans" }
+    {
+      "id": "1",
+      "name": "Spiderman",
+      "powers": [
+        "Spider Sense",
+        "Agility"
+      ],
+      "origin": "New York"
+    },
+    {
+      "name": "Superman",
+      "powers": [
+        "Super Strength",
+        "Flight"
+      ],
+      "id": "2",
+      "origin": "Krypton"
+    },
+    {
+      "name": "Batman",
+      "powers": [
+        "Intelligence",
+        "Martial Arts"
+      ],
+      "origin": "Gotham City",
+      "id": "3"
+    },
+    {
+      "name": "Iron Man",
+      "powers": [
+        "Advanced Armor",
+        "Genius-level intellect"
+      ],
+      "origin": "New York",
+      "id": "5"
+    },
+    {
+      "name": "Hulk",
+      "powers": [
+        "Super Strength",
+        "Regeneration",
+        "swim"
+      ],
+      "origin": "New Mexico",
+      "id": "6"
+    },
+    {
+      "id": "7",
+      "name": "Thor",
+      "powers": [
+        "God of Thunder",
+        "Immortality"
+      ],
+      "origin": "Asgard"
+    },
+    {
+      "id": "8",
+      "name": "Black Panther",
+      "powers": [
+        "Enhanced Senses",
+        "Vibranium Suit"
+      ],
+      "origin": "Wakanda"
+    },
+    {
+      "id": "9",
+      "name": "Captain America",
+      "powers": [
+        "Super Strength",
+        "Shield Mastery"
+      ],
+      "origin": "Brooklyn"
+    },
+    {
+      "id": "10",
+      "name": "Flash",
+      "powers": [
+        "Super Speed",
+        "Time Travel"
+      ],
+      "origin": "Central City"
+    },
+    {
+      "id": "11",
+      "name": "Aquaman",
+      "powers": [
+        "Water Control",
+        "Super Strength"
+      ],
+      "origin": "Atlantis"
+    },
+    {
+      "id": "12",
+      "name": "Green Lantern",
+      "powers": [
+        "Power Ring",
+        "Energy Constructs"
+      ],
+      "origin": "Coast City"
+    },
+    {
+      "id": "13",
+      "name": "Doctor Strange",
+      "powers": [
+        "Magic",
+        "Dimensional Travel"
+      ],
+      "origin": "New York"
+    },
+    {
+      "id": "14",
+      "name": "Wolverine",
+      "powers": [
+        "Regeneration",
+        "Adamantium Claws"
+      ],
+      "origin": "Canada"
+    },
+    {
+      "id": "15",
+      "name": "Deadpool",
+      "powers": [
+        "Regeneration",
+        "Martial Arts"
+      ],
+      "origin": "Canada"
+    },
+    {
+      "id": "16",
+      "name": "Daredevil",
+      "powers": [
+        "Enhanced Senses",
+        "Martial Arts"
+      ],
+      "origin": "Hell's Kitchen"
+    },
+    {
+      "id": "17",
+      "name": "Ant-Man",
+      "powers": [
+        "Size Manipulation",
+        "Strength Proportional to Size"
+      ],
+      "origin": "San Francisco"
+    },
+    {
+      "id": "18",
+      "name": "Captain Marvel",
+      "powers": [
+        "Super Strength",
+        "Energy Manipulation"
+      ],
+      "origin": "Earth"
+    },
+    {
+      "id": "19",
+      "name": "Scarlet Witch",
+      "powers": [
+        "Reality Warping",
+        "Magic"
+      ],
+      "origin": "Sokovia"
+    },
+    {
+      "id": "20",
+      "name": "Vision",
+      "powers": [
+        "Phasing",
+        "Super Intelligence"
+      ],
+      "origin": "Artificial"
+    },
+    {
+      "id": "21",
+      "name": "Black Widow",
+      "powers": [
+        "Espionage",
+        "Martial Arts"
+      ],
+      "origin": "Russia"
+    },
+    {
+      "id": "22",
+      "name": "Hawkeye",
+      "powers": [
+        "Archery",
+        "Tactical Awareness"
+      ],
+      "origin": "Iowa"
+    },
+    {
+      "id": "23",
+      "name": "Falcon",
+      "powers": [
+        "Flight Suit",
+        "Combat Skills"
+      ],
+      "origin": "Harlem"
+    },
+    {
+      "id": "24",
+      "name": "Shazam",
+      "powers": [
+        "Magic",
+        "Super Strength"
+      ],
+      "origin": "Philadelphia"
+    },
+    {
+      "id": "25",
+      "name": "Green Arrow",
+      "powers": [
+        "Archery",
+        "Hand-to-Hand Combat"
+      ],
+      "origin": "Star City"
+    },
+    {
+      "id": "26",
+      "name": "Cyborg",
+      "powers": [
+        "Cybernetic Enhancements",
+        "Technopathy"
+      ],
+      "origin": "Detroit"
+    },
+    {
+      "id": "27",
+      "name": "Star-Lord",
+      "powers": [
+        "Expert Pilot",
+        "Tactical Genius"
+      ],
+      "origin": "Earth"
+    },
+    {
+      "id": "28",
+      "name": "Groot",
+      "powers": [
+        "Regeneration",
+        "Size Manipulation"
+      ],
+      "origin": "Planet X"
+    },
+    {
+      "id": "29",
+      "name": "Rocket Raccoon",
+      "powers": [
+        "Genius Engineer",
+        "Combat Skills"
+      ],
+      "origin": "Halfworld"
+    },
+    {
+      "id": "30",
+      "name": "Gambit",
+      "powers": [
+        "Kinetic Energy Manipulation",
+        "Card Mastery"
+      ],
+      "origin": "New Orleans"
+    }
+  ],
+  "users": [
+    {
+      "id": "c50d",
+      "tipoDocumento": "DNI",
+      "nroDocumento": 12345678,
+      "clave": "12345678"
+    }
   ]
 }
