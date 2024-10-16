@@ -1,9 +1,26 @@
 mat-dialog-content {
     font-size: 16px;
-    color: #d32f2f; /* Color rojo para el texto de error */
+    color: #d32f2f;
   }
   
   mat-dialog-title {
-    color: #d32f2f; /* Color rojo para el título */
+    color: #d32f2f;
+  }
+
+  button{
+    background-color: #d32f2f;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 25px;
+    width: 70px;
+    height: 30px;
+
+    :hover {
+      background-color: #ff7979;
+    }
   }
   

@@ -1,5 +1,5 @@
 import {Injectable} from "@angular/core";
-import {ActivatedRouteSnapshot, RouterStateSnapshot, UrlTree} from "@angular/router";
+import {ActivatedRouteSnapshot, Router, RouterStateSnapshot, UrlTree} from "@angular/router";
 import {Observable} from "rxjs";
 
 interface AuthGuard {
@@ -11,7 +11,7 @@ interface AuthGuard {
 
 @Injectable()
 export class authGuard implements AuthGuard {
-  constructor() {}
+  constructor(private router: Router) {}
 
   canActivate(
     route: ActivatedRouteSnapshot,
@@ -20,6 +20,7 @@ export class authGuard implements AuthGuard {
       return true;
     }
     else {
+    this.router.navigate(['login']);
       return false;
     }
   }

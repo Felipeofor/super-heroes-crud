@@ -10,7 +10,7 @@ export class LoginService {
   constructor(private http: HttpClient) {
   }
 
-  url: string = environment.url;
+  url: string = environment.apiUrl;
 
   public login(tipoDocumento: string, nroDocumento: string, clave: string): Observable<any> {
     const url = `${this.url}/login`;

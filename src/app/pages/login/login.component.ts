@@ -43,7 +43,6 @@ export class LoginComponent implements OnInit {
       this.loginService.login(tipoDocumento, nroDocumento, clave).subscribe(
         (data: any) => {
           if ( data === 'Usuario o clave incorrectos'){
-            // modal de error
             this.dialog.open(DialogErrorComponent, {
               data: {title: 'Error', message: data}
             });
@@ -62,7 +61,7 @@ export class LoginComponent implements OnInit {
   }
 
   registrate() {
-    this.router.navigate(['registrar']);
+    this.router.navigate(['signup']);
   }
 
 }

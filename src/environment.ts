@@ -1,5 +1,5 @@
 export const environment = {
-    url: 'https://api-unicomerce.fly.dev/api',
+    apiUrl: 'http://localhost:3000',
     production: false
 }
   

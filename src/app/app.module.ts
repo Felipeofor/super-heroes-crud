@@ -23,6 +23,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DialogErrorComponent } from './components/dialog-error/dialog-error.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { HeroesTableComponent } from './components/heroes-table/heroes-table.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     SpinnerComponent,
     SignUpComponent,
     HomeComponent,
-    DialogErrorComponent
+    DialogErrorComponent,
+    HeroesTableComponent
   ],
   imports: [
     BrowserModule,
