@@ -1,0 +1,21 @@
+mat-toolbar{
+    background-color: rgb(228,0,43);
+    color: white;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.example-icon {
+    background-color: rgb(228,0,43);
+    border-radius: 30px;
+    color: white;
+    margin-right: 10px;
+    border: none;
+
+    :hover {
+        cursor: pointer;
+        color: rgb(250, 95, 124);
+    }
+}
