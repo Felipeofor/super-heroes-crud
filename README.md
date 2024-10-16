@@ -27,7 +27,7 @@ La aplicación **SuperHero Management** es una solución web diseñada para gest
 
 1. Clona el repositorio:
    ```bash
-   git clone <url-del-repositorio>
+   git clone https://github.com/Felipeofor/super-heroes-crud.git
 
 2. Navega a la carpeta del proyecto:
     cd super-hero-management
@@ -63,5 +63,5 @@ Agradezco la oportunidad de trabajar en este desafío y desarrollar esta aplicac
 
 Si deseas ver más información sobre mis proyectos y trabajos, te invito a visitar mis repositorios en GitHub y mi perfil de LinkedIn: 
 
-GitHub: [tu-perfil-en-github](https://github.com/Felipeofor)
-LinkedIn: [tu-perfil-en-linkedin](https://www.linkedin.com/in/ramosfelipe-fullstack/)
+GitHub: https://github.com/Felipeofor
+LinkedIn: https://www.linkedin.com/in/ramosfelipe-fullstack
