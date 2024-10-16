@@ -29,6 +29,8 @@ La aplicación **SuperHero Management** es una solución web diseñada para gest
 
 - **Código Limpio y Modular**: Se ha organizado el código en componentes claros y reutilizables, facilitando el mantenimiento y la escalabilidad del proyecto.
 
+- **Pantallas Responsivas**: Se implemento medias querys en las pantallas login y singup.
+
 ## Instalación
 
 1. Clona el repositorio:
