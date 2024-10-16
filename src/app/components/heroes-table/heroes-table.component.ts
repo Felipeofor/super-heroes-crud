@@ -39,6 +39,20 @@ export class HeroesTableComponent implements OnInit {
     }
   }
 
+  createHero(): void {
+    const dialogRef = this.dialog.open(CreateHeroDialogComponent, {
+      width: '70vh',
+    });
+  
+    dialogRef.afterClosed().subscribe(result => {
+      if (result) {
+        this.superHeroService.addHero(result).subscribe(newHero => {
+          this.dataSource.data = [...this.dataSource.data, newHero];
+        });
+      }
+    });
+  }
+
   editHero(hero: SuperHero): void {
     const dialogRef = this.dialog.open(CreateHeroDialogComponent, {
       width: '70vh',

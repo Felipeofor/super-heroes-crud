@@ -261,6 +261,16 @@
         "Card Mastery"
       ],
       "origin": "New Orleans"
+    },
+    {
+      "name": "Felipe",
+      "powers": [
+        "Pasar tiempo con la familia",
+        "Programar",
+        "Entrenar"
+      ],
+      "origin": "Argentina",
+      "id": "b5cb"
     }
   ],
   "users": [
