@@ -30,7 +30,7 @@ La aplicación **SuperHero Management** es una solución web diseñada para gest
    git clone https://github.com/Felipeofor/super-heroes-crud.git
 
 2. Navega a la carpeta del proyecto:
-    cd super-hero-management
+    cd super-hero-app
 
 3. Instala las dependencias:
     npm install
