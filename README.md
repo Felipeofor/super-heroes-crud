@@ -1,3 +1,9 @@
+![image](https://github.com/user-attachments/assets/ced05a03-05ad-4b10-8cdb-4143a9bd4a12)
+![image](https://github.com/user-attachments/assets/d2f46540-5c4d-4bd3-aaae-b5c788f088da)
+![image](https://github.com/user-attachments/assets/ed404f7a-ffcd-46ea-bff9-1e36dbf2caf9)
+![image](https://github.com/user-attachments/assets/3eac6100-9101-475f-ae69-9e01a29818de)
+
+
 # SuperHero Management App
 
 ## Descripción
