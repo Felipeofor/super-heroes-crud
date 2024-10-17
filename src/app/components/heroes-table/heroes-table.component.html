@@ -41,13 +41,15 @@
       </button>
     </td>
   </ng-container>
-  
+
   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
   <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
 
   <tr class="mat-row" *matNoDataRow>
-    <td class="mat-cell" colspan="4">No tenemos ese super Heroe en nuestra Base de Datos "{{input.value}}, Agregalo!"</td>
+    <td class="mat-cell" colspan="5">No tenemos ese super héroe en nuestra Base de Datos "{{input.value}}", ¡Agregalo!
+    </td>
   </tr>
+
 </table>
 
 <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>

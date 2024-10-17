@@ -49,6 +49,33 @@ La aplicación **SuperHero Management** es una solución web diseñada para gest
 5. Inicia la aplicación Angular:
     ng serve -o
 
+## Test Unitarios - Karma y Jasmine
+
+Se han implementado tests unitarios para garantizar la correcta funcionalidad del componente `HeroesTableComponent`. Estos tests verifican las siguientes características:
+
+- **Creación del Componente**: Validación de que el componente `HeroesTableComponent` se crea correctamente.
+
+- **Carga Inicial de Datos**: Comprobación de que los superhéroes se cargan al inicializar el componente utilizando el servicio `SuperHeroService`.
+
+- **Filtrado de Superhéroes**: Verificación de que el filtro de búsqueda funciona correctamente.
+
+- **Creación de Superhéroe**: Verificación de que un nuevo superhéroe se añade correctamente.
+
+- **Eliminación de Superhéroe**: Validación de que el superhéroe seleccionado se elimina correctamente.
+
+### Ejecución de los Tests
+
+Para ejecutar los tests unitarios, sigue los siguientes pasos:
+
+1. Asegúrate de que todas las dependencias estén instaladas ejecutando:
+   
+   ```bash
+   npm install
+
+2. Ejecuta el comando para ejecutar los tests con Karma y Jasmine:
+
+    ng test
+
 ## Tecnologías Utilizadas
 
 - **Angular**: Framework para construir aplicaciones web de una sola página.

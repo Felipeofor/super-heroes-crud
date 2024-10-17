@@ -18,7 +18,7 @@ export class CreateHeroDialogComponent {
   ) {
     this.form = this.fb.group({
       name: [data?.name || '', Validators.required],
-      powers: [data?.powers.toString() || '', Validators.required],
+      powers: [data?.powers ? data.powers.toString() : '', Validators.required],
       origin: [data?.origin || '', Validators.required],
     });
   }

@@ -1,15 +1,6 @@
 {
   "superheroes": [
     {
-      "id": "1",
-      "name": "Spiderman",
-      "powers": [
-        "Spider Sense",
-        "Agility"
-      ],
-      "origin": "New York"
-    },
-    {
       "name": "Superman",
       "powers": [
         "Super Strength",
